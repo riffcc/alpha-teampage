@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
 
 const propTypes = {
@@ -108,11 +107,29 @@ const Header = ({
                 <div className="header-nav-inner">
                   <ul className={
                     classNames(
+                        'list-reset text-xs',
+                        navPosition && `header-nav-${navPosition}`
+                    )}>
+                    <li>
+                      <a href="https://riff.cc/">Home</a>
+                    </li>
+                  </ul>
+                  <ul className={
+                    classNames(
+                        'list-reset text-xs',
+                        navPosition && `header-nav-${navPosition}`
+                    )}>
+                    <li>
+                      <a href="https://riff.cc/team/">Team</a>
+                    </li>
+                  </ul>
+                  <ul className={
+                    classNames(
                       'list-reset text-xs',
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <a href="https://docs.riff.cc/" onClick={closeMenu}>Documentation</a>
+                      <a href="https://docs.riff.cc/">Docs</a>
                     </li>
                   </ul>
                   {!hideSignin &&

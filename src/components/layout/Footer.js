@@ -45,7 +45,7 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
-            <div className="footer-copyright">Made by Riff.CC and Cruip. <a href="https://github.com/riffcc/open-react-template">Open source</a> via GPLv3.</div>
+            <div className="footer-copyright">Made by Riff.CC, webpage design originally by Cruip. <a href="https://github.com/riffcc/open-react-template">Open source</a> via GPLv3.</div>
           </div>
         </div>
       </div>

@@ -1,7 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
-import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 
 const propTypes = {
@@ -43,11 +42,6 @@ const FeaturesTiles = ({
     pushLeft && 'push-left'
   );
 
-  const sectionHeader = {
-    title: 'Free culture for the world',
-    paragraph: 'Everything on the site is legally free, either Creative Commons or public domain. Earn bonus points by uploading content or simply by downloading things and leaving your downloader open. The bonus points can then be spent on perks, including eventually physical merchandise from your favourite artists.'
-  };
-
   return (
     <section
       {...props}
@@ -55,48 +49,25 @@ const FeaturesTiles = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
-
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/fist-raised-solid.svg')}
-                      alt="Raised fist"
-                      width={128}
-                      height={128} />
+                      src={require('./../../assets/images/team/benjamin-arntzen-cs.webp')}
+                      alt="Benjamin Arntzen"
+                      width={512}
+                      height={512} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Free the world's culture
+                    Benjamin Wings Arntzen
                     </h4>
+                  <h5>Founder</h5>
                   <p className="m-0 text-sm">
-                    Our mission is to spread the world's culture. Anything interesting and legally free to distribute. That's what we're about.
-                    </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/bolt-solid.svg')}
-                      alt="Lightning bolt"
-                      width={128}
-                      height={128} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Lightning fast
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Everything on Riff is distributed on our network at speeds of at least 1gbps. Popular uploads are seeded at 10gbps, with plans to go to 100gbps as needed.
+                    Benjamin founded Riff.CC in 2009, after becoming frustrated at the lack of options for sharing, exploring and downloading free culture.
                     </p>
                 </div>
               </div>
@@ -107,62 +78,19 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/creative-commons-brands.svg')}
-                      alt="Creative Commons logo"
-                      width={128}
-                      height={128} />
+                        src={require('./../../assets/images/team/logo-circle.webp')}
+                        alt="Connor Tinker"
+                        width={512}
+                        height={512} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    The Global Commons
+                    Connor Tinker
                     </h4>
+                  <h5>Co-founder</h5>
                   <p className="m-0 text-sm">
-                    Everything on the site is either Creative Commons or public domain, which means you're free to download it and share it with your friends. Or contribute back, and give back to the global commons.
-                    </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/compact-disc-solid.svg')}
-                      alt="Remix CD"
-                      width={128}
-                      height={128} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Remix the world
-                    </h4>
-                  <p className="m-0 text-sm">
-                    With a world of free culture at your fingertips, you can feel free to remix and share everything on the site.
-                    </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/chart-bar-solid.svg')}
-                      alt="Bar chart"
-                      width={128}
-                      height={128} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Earn bonus points
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Earn points for keeping your download client open and contributing to the global network. And soon, you'll be able to spend those points on physical merchandise from your favourite artists.
+                    Connor Tinker is a rocket scientist who focuses on Riff.CC's economy, ensuring it is fair and sustainable.
                     </p>
                 </div>
               </div>
@@ -173,19 +101,158 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/viruses-solid.svg')}
-                      alt="Features tile icon 06"
-                      width={128}
-                      height={128} />
+                        src={require('./../../assets/images/team/michael-collins-cs.webp')}
+                        alt="Michael Collins"
+                        width={512}
+                        height={512} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Fight diseases
-                    </h4>
+                    Michael Collins
+                  </h4>
+                  <h5>Co-founder</h5>
                   <p className="m-0 text-sm">
-                    We distribute very large datasets that are normally difficult for scientists to access, helping fight global diseases like cancer and COVID-19.
-                    </p>
+                    Bio coming soon.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                        src={require('./../../assets/images/team/logo-circle.webp')}
+                        alt="Dave Duval"
+                        width={512}
+                        height={512} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Dave Duval
+                  </h4>
+                  <h5>Co-founder</h5>
+                  <p className="m-0 text-sm">
+                    Insert bio here.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                        src={require('./../../assets/images/team/logo-circle.webp')}
+                        alt="Raised fist"
+                        width={512}
+                        height={512} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Unannounced
+                  </h4>
+                  <h5>Co-founder</h5>
+                  <p className="m-0 text-sm">
+                    This team member has not been announced yet.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                        src={require('./../../assets/images/team/phoebe-sleet-cs.webp')}
+                        alt="Raised fist"
+                        width={512}
+                        height={512} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Phoebe Sleet
+                  </h4>
+                  <h5>Policy advisor</h5>
+                  <p className="m-0 text-sm">
+                    Phoebe helps ensure we are behaving ethically as an organisation.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                        src={require('./../../assets/images/team/logo-circle.webp')}
+                        alt="Raised fist"
+                        width={512}
+                        height={512} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Unnanounced
+                  </h4>
+                  <h5>Legal</h5>
+                  <p className="m-0 text-sm">
+                    This staff member looks after legal matters on behalf of Riff.CC.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                        src={require('./../../assets/images/team/logo-circle.webp')}
+                        alt="Raised fist"
+                        width={512}
+                        height={512} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Sphirye
+                  </h4>
+                  <h5>Web developer</h5>
+                  <p className="m-0 text-sm">
+                    Sphirye works on our web frontend, the face of Riff.CC.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                        src={require('./../../assets/images/team/logo-circle.webp')}
+                        alt="Raised fist"
+                        width={512}
+                        height={512} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Daniela Baptista
+                  </h4>
+                  <h5>Content</h5>
+                  <p className="m-0 text-sm">
+                    Daniela helps find content for the platform.
+                  </p>
                 </div>
               </div>
             </div>
