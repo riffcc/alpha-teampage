@@ -50,29 +50,6 @@ const FeaturesTiles = ({
       <div className="container">
         <div className={innerClasses}>
           <div className={tilesClasses}>
-            <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/team/benjamin-arntzen-cs.webp')}
-                      alt="Benjamin Arntzen"
-                      width={512}
-                      height={512} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Benjamin Wings Arntzen
-                    </h4>
-                  <h5>Founder</h5>
-                  <p className="m-0 text-sm">
-                    Benjamin founded Riff.CC in 2009, after becoming frustrated at the lack of options for sharing, exploring and downloading free culture.
-                    </p>
-                </div>
-              </div>
-            </div>
-
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
@@ -90,7 +67,30 @@ const FeaturesTiles = ({
                     </h4>
                   <h5>Co-founder</h5>
                   <p className="m-0 text-sm">
-                    Connor Tinker is a rocket scientist who focuses on Riff.CC's economy, ensuring it is fair and sustainable.
+                    Tinker is a planetary scientist fascinated by the mysteries of our cosmos. On Earth, Connor is working to help make culture and education accessible to all of humanity.
+                    </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('./../../assets/images/team/benjamin-arntzen-cs.webp')}
+                      alt="Benjamin Arntzen"
+                      width={512}
+                      height={512} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Benjamin Arntzen
+                    </h4>
+                  <h5>Founder</h5>
+                  <p className="m-0 text-sm">
+                    Benjamin founded Riff.CC in 2009, after becoming frustrated at the lack of options for sharing, exploring and downloading free culture.
                     </p>
                 </div>
               </div>
@@ -142,24 +142,48 @@ const FeaturesTiles = ({
               </div>
             </div>
 
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('./../../assets/images/team/kieran-mesquita-cs.webp')}
+                      alt="Kieran Mesquita"
+                      width={512}
+                      height={512} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Kieran Mesquita
+                    </h4>
+                  <h5>Co-founder</h5>
+                  <p className="m-0 text-sm">
+                    I am a Programmer, Photographer, and INTJ. I build things.
+                    </p>
+                </div>
+              </div>
+            </div>
+
+
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
                         src={require('./../../assets/images/team/logo-circle.webp')}
-                        alt="Raised fist"
+                        alt="Nick Bannon"
                         width={512}
                         height={512} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Unannounced
+                    Nick Bannon
                   </h4>
                   <h5>Co-founder</h5>
                   <p className="m-0 text-sm">
-                    This team member has not been announced yet.
+                    Insert bio here
                   </p>
                 </div>
               </div>
@@ -171,7 +195,7 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <Image
                         src={require('./../../assets/images/team/phoebe-sleet-cs.webp')}
-                        alt="Raised fist"
+                        alt="Phoebe Sleet"
                         width={512}
                         height={512} />
                   </div>
@@ -180,7 +204,7 @@ const FeaturesTiles = ({
                   <h4 className="mt-0 mb-8">
                     Phoebe Sleet
                   </h4>
-                  <h5>Policy advisor</h5>
+                  <h5>Policy</h5>
                   <p className="m-0 text-sm">
                     Phoebe helps ensure we are behaving ethically as an organisation.
                   </p>
@@ -194,30 +218,7 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <Image
                         src={require('./../../assets/images/team/logo-circle.webp')}
-                        alt="Raised fist"
-                        width={512}
-                        height={512} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Unnanounced
-                  </h4>
-                  <h5>Legal</h5>
-                  <p className="m-0 text-sm">
-                    This staff member looks after legal matters on behalf of Riff.CC.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                        src={require('./../../assets/images/team/logo-circle.webp')}
-                        alt="Raised fist"
+                        alt="Sphirye"
                         width={512}
                         height={512} />
                   </div>
@@ -247,11 +248,81 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
+                    TBA
+                  </h4>
+                  <h5>Legal</h5>
+                  <p className="m-0 text-sm">
+                    This staff member looks after legal matters on behalf of Riff.CC.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                        src={require('./../../assets/images/team/logo-circle.webp')}
+                        alt="Raised fist"
+                        width={512}
+                        height={512} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
                     Daniela Baptista
                   </h4>
                   <h5>Content</h5>
                   <p className="m-0 text-sm">
                     Daniela helps find content for the platform.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                        src={require('./../../assets/images/team/lazar-zeljic-cs.webp')}
+                        alt="Lazar Zeljic"
+                        width={512}
+                        height={512} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Lazar Zeljic
+                  </h4>
+                  <h5>Content</h5>
+                  <p className="m-0 text-sm">
+                    Lazar helps find content for the platform.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                        src={require('./../../assets/images/team/dinesh-kamath-cs.webp')}
+                        alt="Dinesh Kamath"
+                        width={512}
+                        height={512} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Dinesh Kamath
+                  </h4>
+                  <h5>Content</h5>
+                  <p className="m-0 text-sm">
+                    Dinesh is a Mass Media graduate exploring different options and the world of free culture. Dinesh has a background in sales and helps find marketable content.
                   </p>
                 </div>
               </div>
