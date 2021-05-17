@@ -299,7 +299,7 @@ const FeaturesTiles = ({
                   </h4>
                   <h5>Content</h5>
                   <p className="m-0 text-sm">
-                    Lazar helps find content for the platform.
+                    Lazar is a legal assistant who helps find content for the platform, and is exploring the tech industry. <br /> A national level volleyball referee, Lazar loves everything related to new technologies.
                   </p>
                 </div>
               </div>
