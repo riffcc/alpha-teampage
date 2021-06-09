@@ -230,6 +230,7 @@ const FeaturesTiles = ({
                     Sphirye
                   </h4>
                   <h5>Developer</h5>
+                  {/* We did not make this character, Sphirye just likes Team Fortress 2 */}
                   <p className="m-0 text-sm">
                     Sphirye works on Pioneer - the future face of Riff.CC - as well as our app experiences across platforms.
                   </p>
