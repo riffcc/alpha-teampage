@@ -55,7 +55,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                        src={require('./../../assets/images/team/logo-circle.webp')}
+                        src={require('./../../assets/images/team/connor-tinker-cs.webp')}
                         alt="Connor Tinker"
                         width={512}
                         height={512} />
@@ -90,7 +90,7 @@ const FeaturesTiles = ({
                     </h4>
                   <h5>Founder</h5>
                   <p className="m-0 text-sm">
-                    Benjamin founded Riff.CC in 2009, after becoming frustrated at the lack of options for sharing, exploring and downloading free culture.
+                    Benjamin founded Riff.CC in 2010, after becoming frustrated at the lack of options for sharing, exploring and downloading free culture. They build robots that help Riff.CC scale.
                     </p>
                 </div>
               </div>
@@ -113,7 +113,7 @@ const FeaturesTiles = ({
                   </h4>
                   <h5>Co-founder</h5>
                   <p className="m-0 text-sm">
-                    Bio coming soon.
+                    Michael is an open source enthusiast, and explores new and emerging technologies. He works on infrastructure and user experience.
                   </p>
                 </div>
               </div>
@@ -124,7 +124,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                        src={require('./../../assets/images/team/logo-circle.webp')}
+                        src={require('./../../assets/images/team/dave-duval-cs.webp')}
                         alt="Dave Duval"
                         width={512}
                         height={512} />
@@ -159,7 +159,8 @@ const FeaturesTiles = ({
                     </h4>
                   <h5>Co-founder</h5>
                   <p className="m-0 text-sm">
-                    I am a Programmer, Photographer, and INTJ. I build things.
+                    "I am a Programmer, Photographer, and INTJ. I build things." <br />
+                    Kieran works on proving and improving the core technology that powers Riff.CC.
                     </p>
                 </div>
               </div>
@@ -171,7 +172,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                        src={require('./../../assets/images/team/logo-circle.webp')}
+                        src={require('./../../assets/images/team/nick-bannon-cs.webp')}
                         alt="Nick Bannon"
                         width={512}
                         height={512} />
@@ -183,7 +184,7 @@ const FeaturesTiles = ({
                   </h4>
                   <h5>Co-founder</h5>
                   <p className="m-0 text-sm">
-                    Insert bio here
+                    Nick is a systems integrator, standing on the shoulders of giants. He helps ensure we make technically sound decisions and collaborate with the free software community.
                   </p>
                 </div>
               </div>
@@ -201,12 +202,13 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
+                  {/* ✊ */}
                   <h4 className="mt-0 mb-8">
                     Phoebe Sleet
                   </h4>
                   <h5>Policy</h5>
                   <p className="m-0 text-sm">
-                    Phoebe helps ensure we are behaving ethically as an organisation.
+                    Phoebe helps ensure we are behaving ethically as an organisation - and as a free platform - and helps make key policy decisions.
                   </p>
                 </div>
               </div>
@@ -217,7 +219,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                        src={require('./../../assets/images/team/logo-circle.webp')}
+                        src={require('./../../assets/images/team/sphirye-cs.webp')}
                         alt="Sphirye"
                         width={512}
                         height={512} />
@@ -227,9 +229,9 @@ const FeaturesTiles = ({
                   <h4 className="mt-0 mb-8">
                     Sphirye
                   </h4>
-                  <h5>Web developer</h5>
+                  <h5>Developer</h5>
                   <p className="m-0 text-sm">
-                    Sphirye works on our web frontend, the face of Riff.CC.
+                    Sphirye works on Pioneer - the future face of Riff.CC - as well as our app experiences across platforms.
                   </p>
                 </div>
               </div>
@@ -240,19 +242,19 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                        src={require('./../../assets/images/team/logo-circle.webp')}
-                        alt="Raised fist"
+                        src={require('./../../assets/images/team/alyssa-mcaleese-cs.webp')}
+                        alt="Alyssa McAleese"
                         width={512}
                         height={512} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    TBA
+                    Alyssa McAleese
                   </h4>
-                  <h5>Legal</h5>
+                  <h5>Content</h5>
                   <p className="m-0 text-sm">
-                    This staff member looks after legal matters on behalf of Riff.CC.
+                    Alyssa is a teacher who is interested in making knowledge accessible to everyone. She finds books and other media we can share to make that happen.
                   </p>
                 </div>
               </div>
@@ -264,8 +266,8 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                        src={require('./../../assets/images/team/logo-circle.webp')}
-                        alt="Raised fist"
+                        src={require('./../../assets/images/team/daniela-baptista-cs.webp')}
+                        alt="Daniela Baptista"
                         width={512}
                         height={512} />
                   </div>
