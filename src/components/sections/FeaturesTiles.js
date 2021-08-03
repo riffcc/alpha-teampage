@@ -331,6 +331,28 @@ const FeaturesTiles = ({
               </div>
             </div>
 
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                        src={require('./../../assets/images/team/tarun-ghosh-cs.webp')}
+                        alt="Tarun Ghosh"
+                        width={512}
+                        height={512} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Tarun Ghosh
+                  </h4>
+                  <h5>Content/Marketing</h5>
+                  <p className="m-0 text-sm">
+                    Tarun is a computer science enthusiast with a passion for marketing. Help with both design and content at the same time.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
