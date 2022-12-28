@@ -1,6 +1,6 @@
 # Riff.CC Team page
 
-The Riff.CC landing site team page, based on https://github.com/cruip/open-react-template
+This was the team page for Riff.CC Alpha, never fully launched.
 
 ## Table of contents
 
